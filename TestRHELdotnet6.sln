@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestRHELdotnet6", "TestRHELdotnet6\TestRHELdotnet6.csproj", "{B2ED11F4-0D6E-498F-91E8-FFACDAE53A23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StackExchange.Redis", "StackExchange.Redis\src\StackExchange.Redis\StackExchange.Redis.csproj", "{512BE8C5-45BB-47FE-AAAD-B895C417F3FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B2ED11F4-0D6E-498F-91E8-FFACDAE53A23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2ED11F4-0D6E-498F-91E8-FFACDAE53A23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2ED11F4-0D6E-498F-91E8-FFACDAE53A23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2ED11F4-0D6E-498F-91E8-FFACDAE53A23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{512BE8C5-45BB-47FE-AAAD-B895C417F3FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{512BE8C5-45BB-47FE-AAAD-B895C417F3FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{512BE8C5-45BB-47FE-AAAD-B895C417F3FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{512BE8C5-45BB-47FE-AAAD-B895C417F3FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
