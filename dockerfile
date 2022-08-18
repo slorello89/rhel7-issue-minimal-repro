@@ -10,6 +10,6 @@ RUN apt-get update && \
 
 WORKDIR /app
 ADD . /app
-ENV SERedis_EnabledCiphers=TLS_RSA_WITH_AES_128_CBC_SHA256
-# RUN dotnet restore && dotnet build
+# ENV SERedis_EnabledCiphers=TLS_RSA_WITH_AES_128_CBC_SHA256
+RUN dotnet restore
 ENTRYPOINT [ "dotnet", "run", "--project",  "./TestRHELdotnet6/TestRHELdotnet6.csproj"]
